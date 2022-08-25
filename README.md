@@ -7,3 +7,6 @@ Your task for the client is to write the body of the client/presenter/Presenter.
 Your server needs to respond to each of the four types of GET request listed above by extracting the type of request and any parameters from the URL of the request, updating the game state
 appropriately, and sending an HTTP response containing a JSON string in the body. This string represents the updated game state and is detailed below. The server must be written using only vanilla Node.js, which includes the HTTP and URL modules we used in class. Do not use any other packages such as ws or Express for this assignment.
 
+To run this program:
+start the server with node Main.js
+Open client/Crazy8.html in a browser like Chrome
